@@ -23,6 +23,6 @@ ax.set_xlabel('Eixo X') # eixo X
 ax.set_ylabel('Eixo Y') # eixo Y
 ax.set_zlabel('Eixo Z') # eixo Z
 fig.colorbar(surf, shrink=0.5, aspect=5) # cor da barra
-ax.view_init(elev=30,azim=70) # elevação e ângulo
+ax.view_init(elev=30,azim=70) #elevação e ângulo
 ax.dist=8 # distância dos eixos
 plt.show()
